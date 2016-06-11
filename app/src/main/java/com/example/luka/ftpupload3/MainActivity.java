@@ -228,7 +228,7 @@ public class MainActivity extends ActionBarActivity {
         new Thread(new Runnable() {
             public void run() {
                 boolean status = false;
-                status = ftpclient.ftpConnect("ftp.cgsplus.si", "cgs", "papuaplus", 21);
+                status = ftpclient.ftpConnect("ftp.xxx.si", "xxx", "xxx", 21);
                 if (status == true) {
                     stanje=true;
                     Log.d(TAG, "Connection Success");
